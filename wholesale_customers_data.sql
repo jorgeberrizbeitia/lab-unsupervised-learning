@@ -1,3 +1,7 @@
+CREATE DATABASE IF NOT EXISTS wholesale;
+
+USE wholesale;
+
 CREATE TABLE IF NOT EXISTS `wholesale_customers_data` (
     `Channel` INT,
     `Region` INT,
